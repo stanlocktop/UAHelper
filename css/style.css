@@ -38,7 +38,7 @@ header nav ul li:first-of-type{
 }
 
 header nav ul li:first-of-type a{
-    font-size: 13px;
+    font-size: 15px;
 }
 header nav ul li:last-of-type a{
     background: #FFFFFF;
@@ -50,7 +50,7 @@ header nav ul li:last-of-type a{
    /* main_banner */
 
 .main_banner {
-    background-image: url("../images/aperture_studios.jpg");
+    background-image: url("../images/aperture.jpg");
     background-size: cover;
     height: calc(100vh - 83px);
     display: flex;
@@ -65,7 +65,7 @@ header nav ul li:last-of-type a{
 }
 .main_banner article h3 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -74,7 +74,7 @@ header nav ul li:last-of-type a{
 }
 .main_banner article h1 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 54px;
     line-height: 59px;
     color: #FFFFFF;
@@ -82,7 +82,7 @@ header nav ul li:last-of-type a{
 }
 .main_banner article p {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0
@@ -280,26 +280,27 @@ header nav ul li:last-of-type a{
 .what_we_do .cards article img {
     display: block;
     width: 100%;
+    height: 100%;
 }
 .what_we_do .description h4{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: white;
     margin-bottom: 20px;
     text-align: left;
 }
 .what_we_do .description p{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    color: #C0C0C0;
+    color: white;
     margin-bottom: 20px;
 }
 

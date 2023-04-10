@@ -50,9 +50,9 @@ header nav ul li:last-of-type a{
    /* main_banner */
 
 .main_banner {
-    background-image: url("../images/aperture.jpg");
+    background-image: url("../images/photo_banner.jpg");
     background-size: cover;
-    height: calc(100vh - 83px);
+    height: calc(100vh - 0px);
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -70,7 +70,7 @@ header nav ul li:last-of-type a{
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #C0C0C0;
+    color: white;
 }
 .main_banner article h1 {
     font-family: 'Poppins', sans-serif;
@@ -83,13 +83,14 @@ header nav ul li:last-of-type a{
 .main_banner article p {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 20px;
-    color: #C0C0C0
+    color: white;
+    background-color: black;
 }
     /*Sunset at Mount Fuji*/
 .sunset {
-    background-image: url("../images/sunset.jpg");
+    background-image: url("../images/internalist 1.jpg");
     background-size: cover;
     min-height: 600px;
     display: flex;
@@ -104,22 +105,22 @@ header nav ul li:last-of-type a{
 .sunset article h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: white;
 }
 .sunset article p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
-    color: #C0C0C0;
+    color: white;
 }
     /* Monstera Leafs*/
 .leafs{
-    background-image: url("../images/monstera.jpg");
+    background-image: url("../images/volonteers.jpg");
     background-size: cover;
     min-height: 600px;
     display: flex;
@@ -131,18 +132,18 @@ header nav ul li:last-of-type a{
 .leafs_title {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: white;
 }
 .leafs_text {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
-    color: #C0C0C0;
+    color: white;
 }
 .container_leafs {
     max-width: 273px;
@@ -150,7 +151,7 @@ header nav ul li:last-of-type a{
 }
     /*Himalayas*/
 .himalayas{
-    background-image: url("../images/himalays.jpg");
+    background-image: url("../images/gumanitarka.jpg");
     background-size: cover;
     min-height: 600px;
     display: flex;
@@ -162,19 +163,19 @@ header nav ul li:last-of-type a{
 .himalayas_title {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: white;
     max-width: 254px;
 }
 .himalayas_text {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
-    color: #C0C0C0;
+    color: white;
     max-width: 241px;
 }
 .container_himalayas {

@@ -185,7 +185,7 @@ header nav ul li:last-of-type a{
 }
 /*Need help with photography or videography?*/
 .features{
-    background-color: #000000;
+    background-color: black;
     padding-top: 113px;
     padding-bottom: 108px;
     box-sizing: border-box;
@@ -201,14 +201,14 @@ header nav ul li:last-of-type a{
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
-    color: #FFFFFF;
+    color: white;
     margin-bottom: 15px;
 }
 .features p{
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    color: #C0C0C0;
+    color: white;
     margin-bottom: 22px;
 }
 .features a{
@@ -234,7 +234,7 @@ header nav ul li:last-of-type a{
 }
     /*what we do*/
 .what_we_do{
-    background-color: #000000;
+    background-color: white;
     padding-top: 113px;
     padding-bottom: 84px;
 }
@@ -249,7 +249,7 @@ header nav ul li:last-of-type a{
     font-size: 40px;
     line-height: 42px;
     text-align: center;
-    color: #FFFFFF;
+    color:black;
     margin-bottom: 15px;
 }
 .what_we_do h4 {
@@ -259,7 +259,7 @@ header nav ul li:last-of-type a{
     font-size: 23px;
     line-height: 30px;
     text-align: center;
-    color: #C0C0C0;
+    color: black;
     margin-bottom: 42px;
 }
 .what_we_do .cards {
@@ -329,7 +329,7 @@ header nav ul li:last-of-type a{
 }
 /*Logotip*/
 .logotip {
-    background: #000000;
+    background: white;
     padding-top: 113px;
     padding-bottom: 140px;
     box-sizing: border-box;
@@ -353,7 +353,7 @@ header nav ul li:last-of-type a{
     font-size: 40px;
     line-height: 42px;
     text-align: center;
-    color: #FFFFFF;
+    color: black;
     margin-bottom: 15px;
 }
 
@@ -362,6 +362,31 @@ header nav ul li:last-of-type a{
     font-size: 24px;
     line-height: 30px;
     text-align: center;
-    color: #C0C0C0;
+    color: black;
     margin-bottom: 82px;
+}
+            /*Footer*/
+.footer {
+    padding: 55px 0;
+    background-color: white;
+}
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_item {
+    display: flex;
+    gap: 35px;
+    margin: 0 0 25px 0;
+    list-style: none;
+}
+.footer_text {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
 }
